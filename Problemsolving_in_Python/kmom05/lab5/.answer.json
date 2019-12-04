@@ -1,0 +1,96 @@
+{
+    "details": "Generated for Egodrone",
+    "key": "5e92b28b264e415a312cff3f294eb7bc",
+    "summary": {
+        "questions": 14,
+        "points": 18,
+        "pass": 12,
+        "passdistinct": 18
+    },
+    "points": {
+        "1.1": 1,
+        "1.2": 1,
+        "1.3": 1,
+        "1.4": 1,
+        "1.5": 1,
+        "2.1": 1,
+        "2.2": 1,
+        "2.3": 1,
+        "2.4": 1,
+        "2.5": 1,
+        "2.6": 1,
+        "2.7": 1,
+        "3.1": 3,
+        "3.2": 3
+    },
+    "answers": {
+        "1.1": [
+            "mosquito",
+            "Berenger",
+            "cougar",
+            "floor"
+        ],
+        "1.2": [
+            "wasp",
+            "hotdog",
+            "bag",
+            "fly",
+            "butterfly",
+            "bumblebee",
+            "mosquito"
+        ],
+        "1.3": [
+            "wasp",
+            "fly",
+            "painting",
+            "bumblebee",
+            "mosquito"
+        ],
+        "1.4": [
+            "piano",
+            "guitar",
+            "flute",
+            "drums",
+            "bass"
+        ],
+        "1.5": [
+            "wasp",
+            "fly",
+            "bumblebee",
+            "mosquito"
+        ],
+        "2.1": 645,
+        "2.2": 129,
+        "2.3": "The wind is blowing",
+        "2.4": [
+            "dvd",
+            "green",
+            "purple",
+            "vhs",
+            "cd"
+        ],
+        "2.5": false,
+        "2.6": true,
+        "2.7": [
+            "p",
+            "a",
+            "e",
+            "d",
+            "c"
+        ],
+        "3.1": [
+            20,
+            220,
+            450,
+            780,
+            4980
+        ],
+        "3.2": [
+            498,
+            78,
+            51,
+            22,
+            2
+        ]
+    }
+}

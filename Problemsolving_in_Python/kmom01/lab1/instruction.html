@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lab 1 - python</title>
+<style>
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 8px auto;
+    max-width: 700px;
+}
+
+h2 {
+    line-height: 2.5em;
+    border-bottom: 1px solid #aaa;
+}
+
+h3 {
+    line-height: 2.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    margin-bottom: 22px;
+}
+
+div.answer {
+  font-family: "Courier New", monospace;
+  white-space: pre;
+  margin-bottom: 1em;
+}
+
+.fail {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.nopass {
+    color: olive;
+}
+
+.pass {
+    color: green;
+}
+
+.passdistinct {
+    color: DarkGoldenRod;
+}
+table, th, td {
+    border: 1px solid #666;
+}
+
+code {
+    background-color: #eee;
+    border: 1px solid #999;
+    padding: 1px;
+    font-size: larger;
+}
+
+pre code {
+    display: block;
+    background-color: #eee;
+    border: none;
+    border-left: 2px solid #999;
+    padding: 0.5em;
+    margin-bottom: 22px;
+}
+</style>
+</head>
+<body>
+
+<hr>
+
+<h1>Lab 1 - python</h1>
+<p>If you need to peek at examples or just want to know more, take a look at the <a href="https://docs.python.org/3/library/index.html">Python manual</a>.</p>
+
+<p>There you will find everything this lab will go through and much more.</p>
+
+
+<h2>1. Integers, floats and basic arithmetics</h2>
+<p>The foundation of numbers and basic arithmetic.</p>
+
+
+<h3>Exercise 1.1 (1 points)</h3>
+<p>Create a variable called <code>num_one</code> and give it the value 36.</p>
+
+<p>Answer with the value of <code>num_one</code>.</p>
+
+
+
+
+
+
+<h3>Exercise 1.2 (1 points)</h3>
+<p>Create another variable called <code>num_two</code> and give it the value 91. Create a third variable called <code>result</code> and assign to it the sum of the first two variables.</p>
+
+<p>Answer with the <code>result</code> variable.</p>
+
+
+
+
+
+
+<h3>Exercise 1.3 (1 points)</h3>
+<p>Create a variable called <code>num_three</code> and give it the value 77.</p>
+
+<p>Create another variable called <code>num_four</code> and give it the value 99.</p>
+
+<p>Subtract <code>num_three</code> from <code>num_four</code> and add the <code>result</code> variable from above to result of the subtraction. Answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 1.4 (1 points)</h3>
+<p>Answer with the result of a multiplication of <code>num_one</code> and <code>num_three</code>.</p>
+
+
+
+
+
+
+<h3>Exercise 1.5 (1 points)</h3>
+<p>Create a variable called <code>float_one</code> and give it the value 80.63.</p>
+
+<p>Create another variable called <code>float_two</code> and give it the value 93.64.</p>
+
+<p>Sum the two values and answer with the result, rounded to two decimals. Use the function <code>round()</code> to round the number.</p>
+
+
+
+
+
+
+<h3>Exercise 1.6 (1 points)</h3>
+<p>All variables used in the exercise below are defined above.</p>
+
+<p>Sum <code>num_three</code> with <code>num_one</code> and subtract <code>num_four</code>. Multiply the result by <code>num_two</code>, add <code>float_two</code> and subtract <code>float_one</code>.</p>
+
+<p>Answer with the result.</p>
+
+
+
+
+
+
+
+<h2>2. Strings and concatenation</h2>
+
+
+
+<h3>Exercise 2.1 (1 points)</h3>
+<p>Concatenate (svenska: konkatenera) the two words &#8216;storage&#8217; and &#8216;icecream&#8217; and answer with the result.</p>
+
+
+
+
+
+
+<h3>Exercise 2.2 (1 points)</h3>
+<p>Concatenate the word &#8216;icecream&#8217; with the integer 36, with a space between the two values.
+Answer with the new string.</p>
+
+
+
+
+
+
+<h3>Exercise 2.3 (1 points)</h3>
+<p>Concatenate the integer 36 with the word &#8216;storage&#8217; with a space between. To the resulting string concatenate the string &#8217; and &#8216;. To this string concatenate integer 91 and the word &#8216;icecream&#8217; with a space between between the two variables.</p>
+
+
+
+
+
+
+<h3>Exercise 2.4 (1 points)</h3>
+<p>Assign the string value &#8216;30&#8217; to a variable called <code>string_number</code> and assign the integer value 5 to a variable called <code>actual_number</code>.</p>
+
+<p>Use <code>int()</code> to change the type of <code>string_number</code> to an integer and divide the integer value with <code>actual_number</code>. Answer with an integer by using the function <code>round()</code>.</p>
+
+
+
+
+
+
+
+<h2>3. Extra assignments</h2>
+<p>These questions are worth 3 points each. Solve them for extra points.</p>
+
+
+<h3>Exercise 3.1 (3 points)</h3>
+<p>BTH have two plugin-hybrid cars. A new car and an old car. The new car has a fast charging mode where 80% of the battery can be charged in 30 minutes. The remaining 20% of the battery and the entire battery of the old car is charged by 5% every 30 minutes.</p>
+
+<p>During fast charging the effect of the charger is 200W and during normal charging the effect of the charger is 100W.</p>
+
+<p>The formula for calculating the amount of energy based on effect and time is: <code>energy = effect * time</code>. To get the amount of energy in kWh the formula is <code>energy = (effect in W * time in hours) / 1000</code>.</p>
+
+<p>Calculate the total amount of energy used to fully charge the two cars. Answer with the amount of energy in kWh.</p>
+
+
+
+
+
+
+<h3>Exercise 3.2 (3 points)</h3>
+<p>Peter has the phonenumber &#8216;0731415926&#8217; and Anna has the phonenumber &#8216;0727182818&#8217;. They call each other every sunday afternoon for 9 minutes.</p>
+
+<p>Calculate the number of hours that they talk with each other pr year (assume 52 sundays pr year). Use that number in a string concatenation with the following format:</p>
+
+<p>&#8216;Peter calls from [#Peter&#8217;s phonenumber] to Anna on [#Anna&#8217;s phonenumber] for [#hours] hours every year.&#8217;</p>
+
+<p>Replace the content inside [#] with the corresponding values.</p>
+
+<p>Answer with the concatenated string.</p>
+
+
+
+
+
+
+
+<hr>
+<code>3b5514974fb4426a9aa39b8889734984</code>
+
+</body>
+</html>

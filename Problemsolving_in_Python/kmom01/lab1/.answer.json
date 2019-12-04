@@ -1,0 +1,38 @@
+{
+    "details": "Generated for Egodrone",
+    "key": "3b5514974fb4426a9aa39b8889734984",
+    "summary": {
+        "questions": 12,
+        "points": 16,
+        "pass": 10,
+        "passdistinct": 16
+    },
+    "points": {
+        "1.1": 1,
+        "1.2": 1,
+        "1.3": 1,
+        "1.4": 1,
+        "1.5": 1,
+        "1.6": 1,
+        "2.1": 1,
+        "2.2": 1,
+        "2.3": 1,
+        "2.4": 1,
+        "3.1": 3,
+        "3.2": 3
+    },
+    "answers": {
+        "1.1": 36,
+        "1.2": 127,
+        "1.3": 149,
+        "1.4": 2772,
+        "1.5": 174.27,
+        "1.6": 1287.01,
+        "2.1": "storageicecream",
+        "2.2": "icecream 36",
+        "2.3": "36 storage and 91 icecream",
+        "2.4": 6,
+        "3.1": 1.3,
+        "3.2": "Peter calls from 0731415926 to Anna on 0727182818 for 7.8 hours every year."
+    }
+}

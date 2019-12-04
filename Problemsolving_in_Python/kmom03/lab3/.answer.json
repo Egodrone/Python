@@ -1,0 +1,36 @@
+{
+    "details": "Generated for Egodrone",
+    "key": "af83b7a708cd7f9fce39a5acf47c3898",
+    "summary": {
+        "questions": 11,
+        "points": 15,
+        "pass": 9,
+        "passdistinct": 15
+    },
+    "points": {
+        "1.1": 1,
+        "1.2": 1,
+        "1.3": 1,
+        "1.4": 1,
+        "1.5": 1,
+        "1.6": 1,
+        "1.7": 1,
+        "1.8": 1,
+        "1.9": 1,
+        "2.1": 3,
+        "2.2": 3
+    },
+    "answers": {
+        "1.1": "Hi, the weather is nice today!",
+        "1.2": "carrotcandy",
+        "1.3": "sunshine is a funny word",
+        "1.4": 165,
+        "1.5": 6734,
+        "1.6": true,
+        "1.7": "4,9,16,25,36,49,64,81,100,121,144,169,196,225,256,289,324,361,400,441",
+        "1.8": 625,
+        "1.9": "filibuster is a funny word and the square is 4356",
+        "2.1": "1001011",
+        "2.2": "Lower case letters: 25, upper case letters: 6"
+    }
+}
