@@ -13,4 +13,3 @@ Instructions:
 ```
 $ firefox [fileName].html
 ```
-# test
